@@ -6,6 +6,7 @@
 
 # Lec 01-2 - Thu 9/10
 
+- Ensure you've accepted the email invitation to the class GitHub organization 
 - Right before lecture, do a pull of this repo to get the latest files
 - Make sure you can access the class Slack workspace https://sds-293-01-202701.slack.com 
 
