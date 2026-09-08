@@ -1,6 +1,14 @@
-# Lec 1.1 - Tue 9/8: Setup Python, VS Code, and Git
+# Course Overview
 
-Complete these steps; they assume you have no software installed yet.
+- [Course schedule](https://docs.google.com/spreadsheets/d/e/2PACX-1vToPV6gfDlIq5ni1qezMcPy3ZdyIN1MtSSKZ3GABeBvf9LYu3_1XE7DOEQh4Dg02bKG5YF0XpSFO_-B/pubhtml?gid=951666182&single=true)
+- [Syllabus](https://docs.google.com/document/d/1lK7GGtBCa7a2vtsxQLncKqUdS1siXBVi27ruP0pS3SA/edit?tab=t.0#heading=h.xgrewbu2h3w3)
+- Office hours: TBD
+
+
+# Lec 1.1 - Tue 9/8
+
+- Complete the [intro survey](https://docs.google.com/forms/d/e/1FAIpQLSfXhSZsNHNlPshataatZIwl2ZacBl7o_sUbQ-kkH0hGFCkjQw/viewform)
+- Install Setup Python, VS Code, and Git
 
 ## 1. Install Visual Studio Code
 
@@ -58,17 +66,32 @@ We'll use the **Anaconda distribution**, which bundles Python with the data scie
    ```
 3. Clone the course repository:
    ```
-   git clone <COURSE_REPO_URL>
-   cd <REPO_FOLDER_NAME>
+   git clone https://github.com/2026-09-SDS293/lectures.git
+   cd lectures
    ```
-   *(Your instructor will provide the exact repo URL in class.)*
 
-## 6. Open and run `lab00_intro_to_python.ipynb`
+## 6. Open and run `lab01-1_intro_to_python_YOURSMITHLOGIN.ipynb`
 
 1. In VS Code, go to **File > Open Folder...** and select the course repo folder you just cloned.
-2. In the Explorer sidebar, navigate to `Labs/` and click `lab00_intro_to_python.ipynb` to open it.
-3. In the top-right corner of the notebook, click **Select Kernel**.
-4. Choose **Python Environments...**, then select the Anaconda `base` environment (it should be listed automatically since Anaconda was installed in Step 2).
-5. Run the first code cell (click the ▶ play button to its left, or press `Shift+Enter`). VS Code may prompt you to install the `ipykernel` package the first time — click **Install** and wait for it to finish.
-6. Continue running cells top to bottom with `Shift+Enter` to work through the lab.
+2. In the Explorer sidebar, navigate to `lec01-1/`
+3. Make a copy of `lab01-1_intro_to_python_YOURSMITHLOGIN.ipynb` and replace `YOURSMITHLOGIN` with yours. So in my case the file name would be `lab01-1_intro_to_python_akim04.ipynb`
+4. In the top-right corner of the notebook, click **Select Kernel**.
+5. Choose **Python Environments...**, then select the Anaconda `base` environment (it should be listed automatically since Anaconda was installed in Step 2).
+6. Run the first code cell (click the ▶ play button to its left, or press `Shift+Enter`). VS Code may prompt you to install the `ipykernel` package the first time — click **Install** and wait for it to finish.
+7. Continue running cells top to bottom with `Shift+Enter` to work through the lab.
+
+## 7. Getting new files each class, without conflicts
+
+Before each class, your instructor may add new files to the repo (new labs, or solutions to a previous lab). You'll grab these with `git pull`, run from inside your repo folder:
+
+```
+git pull
+```
+
+For this to always work cleanly, **never edit the starter file itself.** Instead:
+
+1. When a new lab file appears (e.g. `lab03.ipynb`), make your own copy in the same folder, renamed with your name, e.g. `lab03_jsmith.ipynb`.
+2. Do all your work in your renamed copy. Leave the original `lab03.ipynb` alone.
+
+Because your renamed copy doesn't match any filename in the instructor's repo, `git pull` will never touch it — no matter what the instructor pushes later (including a `lab03_solutions.ipynb` file after class). This means `git pull` should always succeed with no extra steps.
 
