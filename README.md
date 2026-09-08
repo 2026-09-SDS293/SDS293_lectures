@@ -8,9 +8,11 @@
 # Lec 01-1 - Tue 9/8
 
 - Complete the [intro survey](https://docs.google.com/forms/d/e/1FAIpQLSfXhSZsNHNlPshataatZIwl2ZacBl7o_sUbQ-kkH0hGFCkjQw/viewform)
-- Install Setup Python, VS Code, and Git
+- Install Python, VS Code, and Git
 
 ## 1. Install Visual Studio Code
+
+Install/update to the latest version of VS Code:
 
 1. Go to https://code.visualstudio.com/
 2. Download the installer for your operating system (Windows or Mac) and run it, accepting the default options.
@@ -33,26 +35,22 @@ We'll use the **Anaconda distribution**, which bundles Python with the data scie
 
 ## 3. Install Git
 
-3. Verify if you have git installed. If so, skip the rest. Open a terminal and type:
+1. Verify if you have git installed. If so, skip the rest. Open a terminal and type:
    ```
    git --version
    ```
    You should see a version number printed.
-1. Go to https://git-scm.com/downloads
-2. Download and run the installer for your OS.
+2. Go to https://git-scm.com/downloads
+3. Download and run the installer for your OS.
    - **Windows**: accept all default options during installation.
    - **Mac**: if you're prompted to install Xcode Command Line Tools instead, accept that — it includes Git.
-3. Verify the install: open a terminal and type:
-   ```
-   git --version
-   ```
-   You should see a version number printed.
+4. Verify if you have git installed again.
 
 ## 4. Set up VS Code for Python + Jupyter Notebooks
 
 1. Open VS Code.
 2. Click the **Extensions** icon in the left sidebar (or press `Ctrl+Shift+X` / `Cmd+Shift+X`).
-3. Search for and install:
+3. Search for and install both:
    - **Python** (by Microsoft)
    - **Jupyter** (by Microsoft)
 4. Restart VS Code after both are installed.
@@ -66,19 +64,20 @@ We'll use the **Anaconda distribution**, which bundles Python with the data scie
    ```
 3. Clone the course repository:
    ```
-   git clone https://github.com/2026-09-SDS293/lectures.git
-   cd lectures
+   git clone https://github.com/2026-09-SDS293/SDS293_lectures.git
+   cd SDS293_lectures
    ```
 
 ## 6. Open and run `lab01-1_intro_to_python_YOURSMITHLOGIN.ipynb`
 
 1. In VS Code, go to **File > Open Folder...** and select the course repo folder you just cloned.
 2. In the Explorer sidebar, navigate to `lec01-1/`
-3. Make a copy of `lab01-1_intro_to_python_YOURSMITHLOGIN.ipynb` and replace `YOURSMITHLOGIN` with yours. So in my case the file name would be `lab01-1_intro_to_python_akim04.ipynb`
+3. Make a copy of `lab01-1_intro_to_python_YOURSMITHLOGIN.ipynb` and replace `YOURSMITHLOGIN` with yours e.g. `lab01-1_intro_to_python_jpark03.ipynb`
 4. In the top-right corner of the notebook, click **Select Kernel**.
 5. Choose **Python Environments...**, then select the Anaconda `base` environment (it should be listed automatically since Anaconda was installed in Step 2).
 6. Run the first code cell (click the ▶ play button to its left, or press `Shift+Enter`). VS Code may prompt you to install the `ipykernel` package the first time — click **Install** and wait for it to finish.
 7. Continue running cells top to bottom with `Shift+Enter` to work through the lab.
+
 
 ## 7. Getting new files each class, without conflicts
 
@@ -90,8 +89,8 @@ git pull
 
 For this to always work cleanly, **never edit the starter file itself.** Instead:
 
-1. When a new lab file appears (e.g. `lab03.ipynb`), make your own copy in the same folder, renamed with your name, e.g. `lab03_jsmith.ipynb`.
-2. Do all your work in your renamed copy. Leave the original `lab03.ipynb` alone.
+1. When a new lab file appears (e.g. `labXX-X_XXX_YOURSMITHLOGIN.ipynb`), make your own copy in the same folder, renamed with your name, e.g. `labXX-X_XXX_jpark03.ipynb`.
+2. Do all your work in your renamed copy. Leave the original `labXX-X_XXX_YOURSMITHLOGIN.ipynb` alone.
 
-Because your renamed copy doesn't match any filename in the instructor's repo, `git pull` will never touch it — no matter what the instructor pushes later (including a `lab03_solutions.ipynb` file after class). This means `git pull` should always succeed with no extra steps.
+Because your renamed copy doesn't match any filename in the instructor's repo, `git pull` will never touch it — no matter what the instructor pushes later (including a `labXX-X_XXX_solutions.ipynb` file after class). This means `git pull` should always succeed with no extra steps.
 
