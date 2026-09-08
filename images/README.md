@@ -1,0 +1,1 @@
+All image and diagram files for this course will be here
