@@ -72,7 +72,7 @@ We'll use the **Anaconda distribution**, which bundles Python with the data scie
 
 1. In VS Code, go to **File > Open Folder...** and select the course repo folder you just cloned.
 2. In the Explorer sidebar, navigate to `lec01-1/`
-3. Make a copy of `lab01-1_intro_to_python_YOURSMITHLOGIN.ipynb` and replace `YOURSMITHLOGIN` with yours e.g. `lab01-1_intro_to_python_jpark03.ipynb`
+3. Make a copy of `lab01-1_intro_to_python_YOURSMITHLOGIN.ipynb` and replace `YOURSMITHLOGIN` with your Smith login e.g. `lab01-1_intro_to_python_jpark03.ipynb`
 4. In the top-right corner of the notebook, click **Select Kernel**.
 5. Choose **Python Environments...**, then select the Anaconda `base` environment (it should be listed automatically since Anaconda was installed in Step 2).
 6. Run the first code cell (click the ▶ play button to its left, or press `Shift+Enter`). VS Code may prompt you to install the `ipykernel` package the first time — click **Install** and wait for it to finish.
@@ -89,7 +89,7 @@ git pull
 
 For this to always work cleanly, **never edit the starter file itself.** Instead:
 
-1. When a new lab file appears (e.g. `labXX-X_XXX_YOURSMITHLOGIN.ipynb`), make your own copy in the same folder, renamed with your name, e.g. `labXX-X_XXX_jpark03.ipynb`.
+1. When a new lab file appears (e.g. `labXX-X_XXX_YOURSMITHLOGIN.ipynb`), make your own copy in the same folder, renamed with your Smith login, e.g. `labXX-X_XXX_jpark03.ipynb`.
 2. Do all your work in your renamed copy. Leave the original `labXX-X_XXX_YOURSMITHLOGIN.ipynb` alone.
 
 Because your renamed copy doesn't match any filename in the instructor's repo, `git pull` will never touch it — no matter what the instructor pushes later (including a `labXX-X_XXX_solutions.ipynb` file after class). This means `git pull` should always succeed with no extra steps.
