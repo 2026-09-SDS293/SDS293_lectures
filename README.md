@@ -4,6 +4,10 @@
 - [Syllabus](https://docs.google.com/document/d/1lK7GGtBCa7a2vtsxQLncKqUdS1siXBVi27ruP0pS3SA/edit?tab=t.0#heading=h.xgrewbu2h3w3)
 - Office hours: TBD
 
+# Lec 01-2 - Thu 9/10
+
+- Right before lecture, do a pull of this repo to get the latest files
+- Make sure you can access the class Slack workspace https://sds-293-01-202701.slack.com 
 
 # Lec 01-1 - Tue 9/8
 
