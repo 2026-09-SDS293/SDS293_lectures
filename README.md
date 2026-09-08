@@ -5,7 +5,7 @@
 - Office hours: TBD
 
 
-# Lec 1.1 - Tue 9/8
+# Lec 01-1 - Tue 9/8
 
 - Complete the [intro survey](https://docs.google.com/forms/d/e/1FAIpQLSfXhSZsNHNlPshataatZIwl2ZacBl7o_sUbQ-kkH0hGFCkjQw/viewform)
 - Install Setup Python, VS Code, and Git
