@@ -2,6 +2,9 @@
 # Misc files
 .DS_Store
 
+# Source code for lectures
+lec*.Rmd
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[codz]
