@@ -3,12 +3,31 @@
 - [Course schedule](https://docs.google.com/spreadsheets/d/e/2PACX-1vToPV6gfDlIq5ni1qezMcPy3ZdyIN1MtSSKZ3GABeBvf9LYu3_1XE7DOEQh4Dg02bKG5YF0XpSFO_-B/pubhtml?gid=951666182&single=true)
 - [Syllabus](https://docs.google.com/document/d/1lK7GGtBCa7a2vtsxQLncKqUdS1siXBVi27ruP0pS3SA/edit?tab=t.0#heading=h.xgrewbu2h3w3)
 - Office hours [calendar](https://calendar.google.com/calendar/embed?src=c_hoe7p7ku3rhppoot8e38mponpo%40group.calendar.google.com&ctz=America%2FNew_York)
+- [Moodle](https://moodle.smith.edu/course/view.php?id=57160)
 
-# Lec 01-2 - Thu 9/10
 
-- Ensure you've accepted the email invitation to the class GitHub organization 
-- Right before lecture, do a pull of this repo to get the latest files
-- Make sure you can access the class Slack workspace https://sds-293-01-202701.slack.com 
+# Lec 01-2 - Thu 9/10: $k$-means Clustering
+
+## Admin 
+
+- Ensure you've accepted the email invitation to the class [GitHub organization](https://github.com/2026-09-SDS293)
+- Make sure you can access the class Slack workspace https://sds-293-01-202701.slack.com. In particular, ask all non-private questions in `#questions` channel
+- By next lecture, create a Claude account
+
+
+## Class
+
+- Paper exercise
+- Go over typical lecture flow
+   - Check course schedule
+   - Go over VS Code components, terminal window, extensions
+   - Go over lab01-1 notebook
+   - git pull
+   - Crucial: make your own copy of all `labXX-X_XXX_YOURSMITHLOGIN.ipynb` lab files and then change `YOURSMITHLOGIN`
+- Lecture: $k$-means clustering. In-class quiz next lecture
+- Lab: Due next Tuesday 10:50am on moodle for now (I'm still setting up GitHub Organization)
+
+
 
 # Lec 01-1 - Tue 9/8
 
