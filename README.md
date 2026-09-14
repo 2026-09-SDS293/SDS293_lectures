@@ -19,7 +19,7 @@
 
 
 
-# Lec 01-2 - Thu 9/10: $k$-means Clustering
+# Lec 01-2 - Thu 9/10: k-means Clustering
 
 ## Admin 
 
