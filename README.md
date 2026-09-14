@@ -6,7 +6,20 @@
 - [Moodle](https://moodle.smith.edu/course/view.php?id=57160)
 
 
-# Lec 01-2 - Thu 9/10: k-means Clustering
+# Lec 02-1 - Tue 9/15: Hierarchical clustering & DBSCAN
+
+## Admin
+
+* I've posted the previous semester's version of the slides in [`past_lectures`](past_lectures/)
+* VS Code hacking:
+   * pylance Support Documentation
+   * Install Edit CSV extension
+
+
+
+
+
+# Lec 01-2 - Thu 9/10: $k$-means Clustering
 
 ## Admin 
 
