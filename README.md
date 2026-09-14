@@ -6,7 +6,7 @@
 - [Moodle](https://moodle.smith.edu/course/view.php?id=57160)
 
 
-# Lec 01-2 - Thu 9/10: $k$-means Clustering
+# Lec 01-2 - Thu 9/10: k-means Clustering
 
 ## Admin 
 
