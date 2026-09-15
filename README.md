@@ -7,6 +7,28 @@
 
 
 
+# Lec 02-1 - Tue 9/15: More Clustering
+
+## Admin 
+
+- Previous semester's version of the slides in [`past_lectures`](past_lectures/)
+- Solutions to previous labs will be posted in respective `lecXX-X/` folder. Ex: First two labs solutions posted; be sure to save a copy with `YOURSMITHLOGIN` changed
+- Office hours posted above. Be sure to check location and occasional times changes.
+- Sign up for individual [meet-up](https://calendar.app.google/eYRZN6woyi4Cb5Bm6)
+
+## Class 
+
+- Explore claude.ai
+   - Settings
+   - Options for a prompt
+- VS Code hacking: Install pylance -> Support Documentation
+- Intro to git
+   - [First assignment](https://classroom50.org/2026-09-SDS293/2026-09-sds293-modeling-for-machine-lear/assignments/dusty-carpet-2/accept) due Wed 9/16 1pm: Testing GitHub Classroom 50 for lab submissions
+   - git theory:
+      - local vs remote
+      - git pull, add, commit, push, revert
+- Lecture: Hierarchical clustering (Lab on Thursday)
+- Quiz at 11:55am
 
 
 # Lec 01-2 - Thu 9/10: k-means Clustering
