@@ -5,7 +5,36 @@
 - Office hours [calendar](https://calendar.google.com/calendar/embed?src=c_hoe7p7ku3rhppoot8e38mponpo%40group.calendar.google.com&ctz=America%2FNew_York)
 - [Moodle](https://moodle.smith.edu/course/view.php?id=57160)
 
+# Lec 02-2 - Thu 9/17: Continue Lec 02-1
 
+## Admin
+
+- GitHub Profile Page
+   - At the very least, have your github.com profile show your first name + last initial. This will help grader.
+   - Ensure your personal email is in https://github.com/settings/emails. Your Smith email expires after you graduate
+   - Depending on position type, employers look at your profile like they would LinkedIn. Check out:
+      - [My profile](https://github.com/rudeboybert)
+      - [Marium Tapal '22](https://github.com/mariumtapal) really did a lot.
+
+## Class 
+
+- Continue Lec02-1 Hierarchical Clustering PDF slides
+- Accept `HW2` [here](https://classroom50.org/2026-09-SDS293/2026-09-sds293-modeling-for-machine-lear/assignments/hw2/accept)
+   - Ensure you don't clone the `HW2` repo inside another repo. For example a good directory structure would be:
+   ```
+   Documents/SDS293/
+   ├── SDS293_lectures/
+   ├── 2026-09-sds293-modeling-for-machine-lear-dusty-carpet-rudeboybert/
+   └── 2026-09-sds293-modeling-for-machine-lear-HW2-rudeboybert/
+   ```
+   - Do the above with this VS Code power move:
+      1. Open Command Palette: Cmd+Shift+P → type "Git: Clone" → paste the repo URL → pick a local folder.
+      1. VS Code will ask "Would you like to open the cloned repository?" → choose Open in New Window.
+- Go over `lab01-2_clustering_solutions_YOURSMITHLOGIN.ipynb` on k-means. Make sure to:
+   - Make a copy of the file
+   - Ensure it's in `lec01-2/` folder
+   - Switch `YOURSMITHLOGIN` with your Smith login. Ex: `lab01-2_clustering_solutions_akim04.ipynb`   
+- Start `lab02-1` on hierarchical clustering
 
 # Lec 02-1 - Tue 9/15: More Clustering
 
