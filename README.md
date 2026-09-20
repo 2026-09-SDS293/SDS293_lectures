@@ -19,7 +19,8 @@
 ## Class 
 
 - Continue Lec02-1 Hierarchical Clustering PDF slides
-- Accept `HW2` [here](https://classroom50.org/2026-09-SDS293/2026-09-sds293-modeling-for-machine-lear/assignments/hw2/accept)
+- `HW2` assigned:
+   - Accept `HW2` [here](https://classroom50.org/2026-09-SDS293/2026-09-sds293-modeling-for-machine-lear/assignments/hw2/accept)
    - Ensure you don't clone the `HW2` repo inside another repo. For example a good directory structure would be:
    ```
    Documents/SDS293/
