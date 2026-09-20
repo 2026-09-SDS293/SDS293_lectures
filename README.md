@@ -5,6 +5,8 @@
 - Office hours [calendar](https://calendar.google.com/calendar/embed?src=c_hoe7p7ku3rhppoot8e38mponpo%40group.calendar.google.com&ctz=America%2FNew_York)
 - [Moodle](https://moodle.smith.edu/course/view.php?id=57160)
 
+
+
 # Lec 02-2 - Thu 9/17: Continue Lec 02-1
 
 ## Admin
@@ -37,7 +39,7 @@
    - Switch `YOURSMITHLOGIN` with your Smith login. Ex: `lab01-2_clustering_solutions_akim04.ipynb`   
 - Start `lab02-1` on hierarchical clustering
 
-# Lec 02-1 - Tue 9/15: More Clustering
+# Lec 02-1 - Tue 9/15: Hierarchical Clustering
 
 ## Admin 
 
@@ -58,7 +60,7 @@
       - local vs remote
       - git pull, add, commit, push, revert
 - Lecture: Hierarchical clustering (Lab on Thursday)
-- Quiz at 11:55am
+- Quiz at 11:55am. Always check both sides of page for questions.
 
 
 # Lec 01-2 - Thu 9/10: k-means Clustering
