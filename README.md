@@ -13,7 +13,7 @@
   - Discussion on
     - On ✔️+/✔️/✔️- grading scheme on [Syllabus](https://docs.google.com/document/d/1lK7GGtBCa7a2vtsxQLncKqUdS1siXBVi27ruP0pS3SA/edit?tab=t.0#heading=h.3it06ufj4ttg) (which I used last year)
     - What material will be on quizzes
-  - Supplementary readings: Introduction to Statistical [ISL](<https://www.statlearning.com/>). The following PDF's have been added to `past_lectures/`. SHARE ON SLACK and then get them to delete it
+  - Supplementary readings: Introduction to Statistical [ISL](<https://www.statlearning.com/>). The following PDF's have shared on Slack; download them and save them somewhere in this repo. 
     - `ISLpython.pdf`: Uses python
     - `ISLR.pdf`: Uses R (original version of text)
 - Quiz at 11:55am. Always check both sides of page for questions.
