@@ -21,6 +21,7 @@
 ### Class
 
 - Lecture: DBSCAN clustering
+- Example build-up of agglomerative clustering dendrogram tree using animals example from Lec02-1 (refer to handout)
 - Lab: Will be part of HW3 assigned this Thursday. 
 
 ## Lec 02-2 - Thu 9/17: Continue Lec 02-1
