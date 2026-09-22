@@ -5,129 +5,147 @@
 - Office hours [calendar](https://calendar.google.com/calendar/embed?src=c_hoe7p7ku3rhppoot8e38mponpo%40group.calendar.google.com&ctz=America%2FNew_York)
 - [Moodle](https://moodle.smith.edu/course/view.php?id=57160)
 
+## Lec 03-1 - Tue 9/22: DBSCAN Clustering
 
+### Admin
 
-# Lec 02-2 - Thu 9/17: Continue Lec 02-1
+- Based early discussions with students
+  - Discussion on
+    - On ✔️+/✔️/✔️- grading scheme on [Syllabus](https://docs.google.com/document/d/1lK7GGtBCa7a2vtsxQLncKqUdS1siXBVi27ruP0pS3SA/edit?tab=t.0#heading=h.3it06ufj4ttg) (which I used last year)
+    - What material will be on quizzes
+  - Supplementary readings: Introduction to Statistical [ISL](<https://www.statlearning.com/>. The following PDF's have been added to `past_lectures/`. SHARE ON SLACK and then get them to delete it
+    - `ISLpython.pdf`: Uses python
+    - `ISLR.pdf`: Uses R (original version of text)
+- Quiz at 11:55am. Always check both sides of page for questions.
 
-## Admin
+### Class
+
+- Lecture: DBSCAN clustering
+- Lab: Will be part of HW3 assigned this Thursday. 
+
+## Lec 02-2 - Thu 9/17: Continue Lec 02-1
+
+### Admin
 
 - GitHub Profile Page
-   - At the very least, have your github.com profile show your first name + last initial. This will help grader.
-   - Ensure your personal email is in https://github.com/settings/emails. Your Smith email expires after you graduate
-   - Depending on position type, employers look at your profile like they would LinkedIn. Check out:
-      - [My profile](https://github.com/rudeboybert)
-      - [Marium Tapal '22](https://github.com/mariumtapal) really did a lot.
+  - At the very least, have your github.com profile show your first name + last initial. This will help grader.
+  - Ensure your personal email is in <https://github.com/settings/emails>. Your Smith email expires after you graduate
+  - Depending on position type, employers look at your profile like they would LinkedIn. Check out:
+    - [My profile](https://github.com/rudeboybert)
+    - [Marium Tapal '22](https://github.com/mariumtapal) really did a lot.
 
-## Class 
+### Class
 
 - Continue Lec02-1 Hierarchical Clustering PDF slides
 - `HW2` assigned:
-   - Accept `HW2` [here](https://classroom50.org/2026-09-SDS293/2026-09-sds293-modeling-for-machine-lear/assignments/hw2/accept)
-   - Ensure you don't clone the `HW2` repo inside another repo. For example a good directory structure would be:
+  - Accept `HW2` [here](https://classroom50.org/2026-09-SDS293/2026-09-sds293-modeling-for-machine-lear/assignments/hw2/accept)
+  - Ensure you don't clone the `HW2` repo inside another repo. For example a good directory structure would be:
+
    ```
    Documents/SDS293/
    ├── SDS293_lectures/
    ├── 2026-09-sds293-modeling-for-machine-lear-dusty-carpet-rudeboybert/
    └── 2026-09-sds293-modeling-for-machine-lear-HW2-rudeboybert/
    ```
-   - Do the above with this VS Code power move:
+
+  - Do the above with this VS Code power move:
       1. Open Command Palette: Cmd+Shift+P → type "Git: Clone" → paste the repo URL → pick a local folder.
       1. VS Code will ask "Would you like to open the cloned repository?" → choose Open in New Window.
 - Go over `lab01-2_clustering_solutions_YOURSMITHLOGIN.ipynb` on k-means. Make sure to:
-   - Make a copy of the file
-   - Ensure it's in `lec01-2/` folder
-   - Switch `YOURSMITHLOGIN` with your Smith login. Ex: `lab01-2_clustering_solutions_akim04.ipynb`   
+  - Make a copy of the file
+  - Ensure it's in `lec01-2/` folder
+  - Switch `YOURSMITHLOGIN` with your Smith login. Ex: `lab01-2_clustering_solutions_akim04.ipynb`
 - Start `lab02-1` on hierarchical clustering
 
-# Lec 02-1 - Tue 9/15: Hierarchical Clustering
+## Lec 02-1 - Tue 9/15: Hierarchical Clustering
 
-## Admin 
+### Admin
 
 - Previous semester's version of the slides in [`past_lectures`](past_lectures/)
 - Solutions to previous labs will be posted in respective `lecXX-X/` folder. Ex: First two labs solutions posted; be sure to save a copy with `YOURSMITHLOGIN` changed
 - Office hours posted above. Be sure to check location and occasional times changes.
 - Sign up for individual [meet-up](https://calendar.app.google/eYRZN6woyi4Cb5Bm6)
 
-## Class 
+### Class
 
 - Explore claude.ai
-   - Settings
-   - Options for a prompt
+  - Settings
+  - Options for a prompt
 - VS Code hacking: Install pylance -> Support Documentation
 - Intro to git
-   - [First assignment](https://classroom50.org/2026-09-SDS293/2026-09-sds293-modeling-for-machine-lear/assignments/dusty-carpet-2/accept) due Wed 9/16 1pm: Testing GitHub Classroom 50 for lab submissions
-   - git theory:
-      - local vs remote
-      - git pull, add, commit, push, revert
+  - [First assignment](https://classroom50.org/2026-09-SDS293/2026-09-sds293-modeling-for-machine-lear/assignments/dusty-carpet-2/accept) due Wed 9/16 1pm: Testing GitHub Classroom 50 for lab submissions
+  - git theory:
+    - local vs remote
+    - git pull, add, commit, push, revert
 - Lecture: Hierarchical clustering (Lab on Thursday)
 - Quiz at 11:55am. Always check both sides of page for questions.
 
+## Lec 01-2 - Thu 9/10: k-means Clustering
 
-# Lec 01-2 - Thu 9/10: k-means Clustering
-
-## Admin 
+### Admin
 
 - Ensure you've accepted the email invitation to the class [GitHub organization](https://github.com/2026-09-SDS293)
-- Make sure you can access the class Slack workspace https://sds-293-01-202701.slack.com. In particular, ask all non-private questions in `#questions` channel
+- Make sure you can access the class Slack workspace <https://sds-293-01-202701.slack.com>. In particular, ask all non-private questions in `#questions` channel
 - By next lecture, create a Claude account
 
-
-## Class
+### Class
 
 - Paper exercise
 - Go over typical lecture flow
-   - Check course schedule
-   - Go over VS Code components, terminal window, extensions
-   - Go over lab01-1 notebook
-   - git pull
-   - Crucial: make your own copy of all `labXX-X_XXX_YOURSMITHLOGIN.ipynb` lab files and then change `YOURSMITHLOGIN`
+  - Check course schedule
+  - Go over VS Code components, terminal window, extensions
+  - Go over lab01-1 notebook
+  - git pull
+  - Crucial: make your own copy of all `labXX-X_XXX_YOURSMITHLOGIN.ipynb` lab files and then change `YOURSMITHLOGIN`
 - Lecture: $k$-means clustering. In-class quiz next lecture
 - Lab: Due next Tuesday 10:50am on moodle for now (I'm still setting up GitHub Organization)
 
-
-
-# Lec 01-1 - Tue 9/8
+## Lec 01-1 - Tue 9/8
 
 - Complete the [intro survey](https://docs.google.com/forms/d/e/1FAIpQLSfXhSZsNHNlPshataatZIwl2ZacBl7o_sUbQ-kkH0hGFCkjQw/viewform)
 - Install Python, VS Code, and Git
 
-## 1. Install Visual Studio Code
+### 1. Install Visual Studio Code
 
 Install/update to the latest version of VS Code:
 
-1. Go to https://code.visualstudio.com/
+1. Go to <https://code.visualstudio.com/>
 2. Download the installer for your operating system (Windows or Mac) and run it, accepting the default options.
 3. Open VS Code once installation finishes to confirm it launches.
 
-## 2. Install Python (via the Anaconda distribution)
+### 2. Install Python (via the Anaconda distribution)
 
 We'll use the **Anaconda distribution**, which bundles Python with the data science libraries (`pandas`, `numpy`, `matplotlib`) used in this course, plus Jupyter notebook support.
 
-1. Go to https://www.anaconda.com/download
+1. Go to <https://www.anaconda.com/download>
 2. Download the installer for your OS.
 3. Run the installer, accepting the default options.
    - **Windows**: when prompted, it's fine to leave "Add Anaconda to my PATH environment variable" unchecked (default) — VS Code will find it automatically.
    - **Mac**: accept the default install location.
 4. Verify the install: open a terminal (Mac: **Terminal** app; Windows: **Anaconda Prompt**, found in your Start menu) and type:
+
    ```
    python --version
    ```
+
    You should see a Python 3.x version number printed.
 
-## 3. Install Git
+### 3. Install Git
 
 1. Verify if you have git installed. If so, skip the rest. Open a terminal and type:
+
    ```
    git --version
    ```
+
    You should see a version number printed.
-2. Go to https://git-scm.com/downloads
+2. Go to <https://git-scm.com/downloads>
 3. Download and run the installer for your OS.
    - **Windows**: accept all default options during installation.
    - **Mac**: if you're prompted to install Xcode Command Line Tools instead, accept that — it includes Git.
 4. Verify if you have git installed again.
 
-## 4. Set up VS Code for Python + Jupyter Notebooks
+### 4. Set up VS Code for Python + Jupyter Notebooks
 
 1. Open VS Code.
 2. Click the **Extensions** icon in the left sidebar (or press `Ctrl+Shift+X` / `Cmd+Shift+X`).
@@ -136,20 +154,23 @@ We'll use the **Anaconda distribution**, which bundles Python with the data scie
    - **Jupyter** (by Microsoft)
 4. Restart VS Code after both are installed.
 
-## 5. Get the course files
+### 5. Get the course files
 
 1. Open a terminal (Mac: **Terminal**; Windows: **Anaconda Prompt** or **Git Bash**).
 2. Navigate to a folder where you want to keep your course work, e.g.:
+
    ```
    cd Documents
    ```
+
 3. Clone the course repository:
+
    ```
    git clone https://github.com/2026-09-SDS293/SDS293_lectures.git
    cd SDS293_lectures
    ```
 
-## 6. Open and run `lab01-1_intro_to_python_YOURSMITHLOGIN.ipynb`
+### 6. Open and run `lab01-1_intro_to_python_YOURSMITHLOGIN.ipynb`
 
 1. In VS Code, go to **File > Open Folder...** and select the course repo folder you just cloned.
 2. In the Explorer sidebar, navigate to `lec01-1/`
@@ -159,8 +180,7 @@ We'll use the **Anaconda distribution**, which bundles Python with the data scie
 6. Run the first code cell (click the ▶ play button to its left, or press `Shift+Enter`). VS Code may prompt you to install the `ipykernel` package the first time — click **Install** and wait for it to finish.
 7. Continue running cells top to bottom with `Shift+Enter` to work through the lab.
 
-
-## 7. Getting new files each class, without conflicts
+### 7. Getting new files each class, without conflicts
 
 Before each class, your instructor may add new files to the repo (new labs, or solutions to a previous lab). You'll grab these with `git pull`, run from inside your repo folder:
 
@@ -174,4 +194,3 @@ For this to always work cleanly, **never edit the starter file itself.** Instead
 2. Do all your work in your renamed copy. Leave the original `labXX-X_XXX_YOURSMITHLOGIN.ipynb` alone.
 
 Because your renamed copy doesn't match any filename in the instructor's repo, `git pull` will never touch it — no matter what the instructor pushes later (including a `labXX-X_XXX_solutions.ipynb` file after class). This means `git pull` should always succeed with no extra steps.
-
