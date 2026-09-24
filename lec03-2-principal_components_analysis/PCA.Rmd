@@ -1,0 +1,261 @@
+---
+title: "Principal Components Analysis"
+author: "Albert Y. Kim"
+date: "`r Sys.Date()`"
+output:
+  html_document: 
+    df_print: kable
+    theme: cosmo
+    number_sections: true
+---
+
+```{r, message=FALSE, echo=FALSE}
+options(digits = 3)
+```
+
+# Data
+
+## Raw data
+
+The data consists of SAT scores for the 50 states in 1994-1995. Let's see the first 6 rows:
+
+```{r, message=FALSE, warning=FALSE}
+library(tidyverse)
+library(patchwork)
+SAT <- read_csv("sat.csv") |> 
+  select(State, salary, expend)
+head(SAT)
+X <- SAT |> 
+  select(salary, expend)
+```
+
+Let `X` be of dimension $n \times p = 50 \times 2$, where our observations $\vec{X} = (X_1, X_2)$ are
+
+- $X_1$ `salary`: estimated average annual salary of teachers in public elementary and secondary schools (in \$)
+- $X_2$ `expend`: expenditure per pupil in average daily attendance in public elementary and secondary schools (in\$)
+
+## EDA
+
+The two variables aka features `salary` and `expend` are highly correlated ($\rho=$ `r cor(SAT$salary, SAT$expend) |> round(3)`). So, you can think of them as being redundant; once you know one variable, the other variable doesn't provide you with all that more information. This is very apparent in the plot below (with the regression line being dashed):
+
+```{r fig.width=10, fig.height=5, echo=FALSE, message=FALSE}
+ggplot(data=X, aes(x=salary, y=expend)) +
+  geom_text(label=state.abb) +
+  geom_smooth(method="lm", se=FALSE, linetype="dashed", linewidth=0.5, col="black") +
+  labs(x="X1: Salary", y="X2: Expenditure")
+```
+
+Note such *collinear* features are a problem in a regression setting, because they "steal" each other's effect, so it becomes difficult to isolate the effect of one vs the other. In other words, if you fit a model:
+
+$$\widehat{y} = \widehat{\beta}_0 + \widehat{\beta}_{1} x_1 + \widehat{\beta}_{2} x_2$$
+
+you will get very unstable estimates of $\widehat{\beta}_{0}, \widehat{\beta}_{1}, \widehat{\beta}_{2}$ that will vary significantly as you fit the model different times to different data (from different years for example). In other words, your estimates of $\widehat{\beta}_{0}, \widehat{\beta}_{1}, \widehat{\beta}_{2}$ will have high standard error and thus large confidence intervals and large p-values.
+
+# Data pre-processing
+
+## Standardizing the features
+
+Recall from a previous lab the act of standardizing features. We do this to our data so that the differing scales of salary (in tens of thousands of \$) and expenditure (in thousands of \$) don't distort the comparison of these two features. We did this using the `StandardScaler().fit_transform()` method from `sklearn` in python.
+
+We standardize both `salary` and `expenditure` to each have mean 0 and standard deviation 1, i.e. compute their z-scores, by:
+
+- subtracting their sample means $(\overline{x}_1, \overline{x}_2)$
+- then dividing by their sample standard deviations $(s_1, s_2)$
+
+```{r}
+X_standardized <- X |>
+  mutate(
+    # Standardize salary
+    salary = (salary - mean(salary))/sd(salary),
+    # Standardize expend
+    expend = (expend - mean(expend))/sd(expend)   
+  )
+```
+
+We plot the two standardized features along with a $y=x$ dashed line:
+
+```{r fig.width=10, fig.height=5, echo=FALSE, message=FALSE}
+base_plot_X <- ggplot(data=X_standardized, aes(x=salary, y=expend)) +
+  geom_text(label=state.abb) +
+  geom_abline(intercept = 0, slope=1, linetype="dashed", linewidth=0.5, col="black") +
+  labs(x="X1: Salary (standardized)", y="X2: Expenditure (standardized)") + 
+  coord_equal()
+
+base_plot_X
+```
+
+## Covariance matrices
+
+We compute the *sample/empirical* $2 \times 2$ covariance matrix for `X_standardized` (You learn about covariance matrices in MTH 246 Probability). Note the off-diagonal is the correlation coefficient of $\rho=$ `r cor(SAT$salary, SAT$expend) |> round(3)` we saw earlier
+
+```{r}
+cov(X_standardized) |> round(3)
+```
+
+# Principal Components
+
+## Linear algebra
+
+Let's run some linear algebra on the covariance matrix of `X_standardized`:
+
+- Compute the first and second *eigenvectors* $\vec{\gamma}_1$ & $\vec{\gamma}_2$ of the covariance matrix of `X_standarized`. These are called the first and second **principal components**.
+- Compute and display the corresponding eigenvalues as well (we'll see these again later)
+- Plot the first principal component in red and the second blue.
+
+```{r echo=TRUE}
+eigen <- cov(X_standardized) |> 
+  eigen()
+
+# Compute eigenvalues
+eigen_vals <- eigen$values
+eigen_vals
+
+# Computer eigenvectors (1st column = 1st eigenvector, 2nd column = 2nd eigenvector)
+Gamma <- eigen$vectors
+Gamma
+```
+
+```{r fig.width=10, fig.height=5, echo=FALSE, message=FALSE}
+# Don't worry about how this code works, focus on the output plot
+eigen_vec_1 <- Gamma[, 1]
+PC1_orig <- tibble(
+  salary = c(0, eigen_vec_1[1]),
+  expend = c(0, eigen_vec_1[2])
+  )
+eigen_vec_2 <- Gamma[, 2]
+PC2_orig <- tibble(
+  salary = c(0, eigen_vec_2[1]),
+  expend = c(0, eigen_vec_2[2])
+  )
+base_plot_X <- base_plot_X +
+  geom_line(data=PC1_orig, arrow = arrow(length=unit(0.3,"cm"), type = "closed"), col="red") + 
+  geom_line(data=PC2_orig, arrow = arrow(length=unit(0.3,"cm"), ends="first", type = "closed"), col="blue")
+base_plot_X
+```
+
+Notice:
+
+- How the first principal component (in red) is in fact the $y=x$ line. Of all the components (arrows) you can draw on this plot, this one *captures/explains the most variability* in $(X_1, X_2)$. Intuitively speaking, most of the action of the 50 points is along the red arrow.
+- How the second principal component (in blue) *captures/explains the variability in* $(X_1, X_2)$ leftover after the first principal component. Intuitively speaking, there is less variation along the blue arrow.
+- The two principal components are perpendicular to each other. Linear algebra fact: not only do they form a spanning set aka are linearly independent. In other words, they form an *orthogonal basis*. Recall from linear algebra that
+  1.  "basis" means you can reach any point in this two space via linear combinations of these two vectors
+  2.  "orthogonal" means "perpendicular" in a multivariate space
+
+# Principal Component Space
+
+## Linear transformation
+
+For any point in our original $\vec{X} = (X_1, X_2)$, we can transform it (aka convert it) to principal components space $\vec{Y} = (Y_1, Y_2)$ via linear transformation:
+
+$$(Y_1, Y_2) = \left(\frac{X_1 - \overline{x}_1}{s_1}, \frac{X_2 - \overline{x}_2}{s_2}\right) \left(
+\vec{\gamma}_1, \vec{\gamma}_2
+\right)$$
+
+i.e. standardize the values, then matrix multiply the values by the eigenvectors
+
+```{r echo=TRUE, warning=FALSE}
+# Transform n x p matrix of observations to new principal components space:
+Y <- as.matrix(X_standardized) %*% Gamma |> 
+  as_tibble() |> 
+  rename(Y1 = V1, Y2 = V2)
+```
+
+In other words the first 5 rows of the original data set:
+
+```{r, echo=FALSE}
+bind_cols(
+  State = SAT$State[1:5],
+  head(X_standardized, 5) |> round(3)
+)
+```
+
+become
+
+```{r, echo=FALSE}
+bind_cols(
+  State = SAT$State[1:5],
+  head(Y, 5) |> round(3)
+)
+```
+
+## Visualization of transformation
+
+Let's visualize the 50 points in standardized space and compare to how they look in principal components space $(Y_1, Y_2)$:
+
+```{r fig.width=10, fig.height=5, echo=FALSE, message=FALSE}
+# Transform arrows to new principal components space:
+PC1 <- as.matrix(PC1_orig) %*% Gamma |> 
+  as_tibble() |> 
+  rename(
+    Y1 = V1,
+    Y2 = V2
+  )
+PC2 <- as.matrix(PC2_orig) %*% Gamma |> 
+  as_tibble() |> 
+  rename(
+    Y1 = V1,
+    Y2 = V2
+  )
+plot1 <- base_plot_X +
+  labs(title="Original Standardized Space")
+plot2 <- ggplot(Y, aes(x=Y1, y=Y2))+
+  geom_text(label=state.abb) + 
+  geom_smooth(method="lm", se=FALSE, linetype="dashed", linewidth=0.5, col="black") +
+  geom_line(data=PC1, arrow = arrow(length=unit(0.30,"cm"), type = "closed"), col="red") + 
+  geom_line(data=PC2, arrow = arrow(length=unit(0.30,"cm"), type = "closed"), col="blue") +
+  coord_equal(ylim=c(-2, 2)) +
+  labs(x="Y1: Principal Component 1", y="Y2: Principal Component 2", title="Principal Components Space")
+plot1 + plot2
+```
+
+Notice:
+
+- The principal components space is a rotation of the original space.
+- The dashed $y=x$ now lies flat!
+- `MS` and `NY` were at the negative and positive extremes of the first principal component (in red) in the original space. This is reflected in the principal components space. Same go for `CA` and `NJ` along the second principal component (in blue). In other words: *the rankings are preserved*.
+- *Mostly importantly*: In principal components space $Y_1$ and $Y_2$ are *uncorrelated* to each other.
+
+# Who cares?
+
+## Covariance matrices
+
+(Note this section may not be immediately apparent to you if you haven't taken MTH 246 Probability. So try to remember the intuition, if not the mathematical details). Let's compare the sample covariance matrices of the 50 points in both spaces:
+
+```{r fig.width=10, fig.height=8}
+cov(X_standardized) |> round(3)
+cov(Y) |> round(3)
+```
+
+Notice:
+
+- The sum of the variances of the standarized features equals the sum of the variances of the $\vec{Y}$ (the sum along the diagonals = `r diag(cov(X_standardized)) |> sum() |> round(3)`). In other words, the total variability of the 50 points is the same in both spaces.
+- The off-diagonals in principal component space, however, are all 0. In other words, $Y_1$ and $Y_2$ are uncorrelated.
+- Linear algebra fact: the diagonal of `cov(Y)` are in fact the *eigenvalues* corresponding to the above mentioned eigenvectors, and are guaranteed to be in order of largest to smallest.
+
+Let's look at the variances of $Y_1$ and $Y_2$ and their cumulative proportions
+
+- $\frac{1.87}{1.87 + 0.13} = 0.935$
+- $\frac{1.87 + 0.13}{1.87 + 0.13} = 1$
+
+```{r, fig.height=5, echo=FALSE, message=FALSE}
+var_Y <- cov(Y) |> diag()
+cum_prop <- cumsum(var_Y)/sum(var_Y)
+tibble(
+  x = 1:2,
+  y = cum_prop
+) |> 
+  ggplot(aes(x,y)) +
+  geom_point(fill = "black", size = 2) +
+  scale_x_continuous(breaks = 1:2) +
+  geom_line() +
+  coord_cartesian(ylim = c(0,1)) +
+  labs(x = "Number of principal components", y = "Cummulative proportion of variance explained")
+```
+
+## Moral of the story
+
+We observe that 93.5% of the variability of the salary and expenditure features is explained by the first principal component! So one would be inclined to use the single variable $Y_1$ and call it "school funding."
+
+**Occam's Razor**: If 93.5% of the total variability in salary and expenditure can be explained with this single variable "school funding", why not use only this single variable? Remember: all other things being equal, simpler models are better. Furthermore, this method generalizes to any dimensional space of predictors $\vec{X}$ for $p\geq2$. We don't do that here because its hard to visualize once $p$ gets large.
+
+Unfortunately the interpretation of $Y_1$ is hard to make sense of. This is one of the downsides of PCA, a loss of interpretability.
