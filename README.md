@@ -5,6 +5,20 @@
 - Office hours [calendar](https://calendar.google.com/calendar/embed?src=c_hoe7p7ku3rhppoot8e38mponpo%40group.calendar.google.com&ctz=America%2FNew_York)
 - [Moodle](https://moodle.smith.edu/course/view.php?id=57160)
 
+## Lec 03-2 - Thu 9/24: Principal Components Analysis
+
+### Admin
+
+- Quiz 3 on Tuesday: It covers lecture and lab, so go over both labs before then.
+- 
+
+### Class
+
+- Go over `PCA.html`. I provided the source `.Rmd` code and data `sat.csv` in case you're curious; however you will not be required to repeat this analysis in R nor will you be evaluated on it, so don't worry if you don't understand the R code. Rather, focus only on the inputs, outputs, and the intuition.
+- `HW3` assigned
+  - Accept `HW3` [here](https://classroom50.org/2026-09-SDS293/2026-09-sds293-modeling-for-machine-lear/assignments/hw3/accept). Look at the instructions for cloning `HW2` from a week ago to ensure you don't clone the `HW3` repo inside another repo.
+  - You will be submitting your completed versions of `lab03-1` on DBSCAN and `lab03-2` on PCA
+
 ## Lec 03-1 - Tue 9/22: DBSCAN Clustering
 
 ### Admin
