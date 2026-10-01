@@ -14,12 +14,12 @@
 - Slack
     - Go to `#general` and answer poll on when to do quizzes during lecture.
     - See my post in `#questions`
-- Problem Set 1 assigned on Monday (In groups)
+- Problem Set 1 assigned on Tuesday (In groups)
 
 
 ### Class
 
-- Lecture: Finish Lec04-1 Intro to Supervised Learnings
+- Lecture: Finish Lec04-1 Intro to Supervised Learning
 - Lecture: Transformations, scaling, and pipelines
 - `HW4` on transformations, scaling, and pipelines assigned
   - Accept `HW4` [here](https://classroom50.org/2026-09-SDS293/2026-09-sds293-modeling-for-machine-lear/assignments/hw4/accept). Look at the instructions for cloning `HW2` to ensure you don't clone the `HW4` repo inside another repo.
