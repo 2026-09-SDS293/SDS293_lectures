@@ -6,6 +6,22 @@
 - [Moodle](https://moodle.smith.edu/course/view.php?id=57160)
 
 
+## Lec 04-2 - Tue 9/29: k-Nearest Neighbors
+
+### Admin
+
+- If you haven't already, submit your desired secret code name [here](https://docs.google.com/forms/d/e/1FAIpQLSdxMbX_CiNiy9e7BUjwFLwapdrQoAhoZBcgp_9RnPMIK5VMVw/viewform?usp=publish-editor)
+- Go to Slack `#general` and answer poll on when to do quizzes during lecture.
+
+
+### Class
+
+- Explain python pipelines
+- `HW4` on k Nearest Neighbors (kNN) assigned
+  - Accept `HW4` [here](https://classroom50.org/2026-09-SDS293/2026-09-sds293-modeling-for-machine-lear/assignments/hw4/accept). Look at the instructions for cloning `HW2` to ensure you don't clone the `HW4` repo inside another repo.
+  - You will be submitting your completed versions of `lab04-2` on kNN
+  
+
 ## Lec 04-1 - Tue 9/29: Intro to Supervised Learning
 
 ### Admin
