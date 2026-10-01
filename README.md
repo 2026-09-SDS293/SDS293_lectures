@@ -16,10 +16,6 @@
 
 ### Class
 
-- Explain python pipelines
-- `HW4` on k Nearest Neighbors (kNN) assigned
-  - Accept `HW4` [here](https://classroom50.org/2026-09-SDS293/2026-09-sds293-modeling-for-machine-lear/assignments/hw4/accept). Look at the instructions for cloning `HW2` to ensure you don't clone the `HW4` repo inside another repo.
-  - You will be submitting your completed versions of `lab04-2` on kNN
   
 
 ## Lec 04-1 - Tue 9/29: Intro to Supervised Learning
