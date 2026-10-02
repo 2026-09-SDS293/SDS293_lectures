@@ -6,7 +6,7 @@
 - [Moodle](https://moodle.smith.edu/course/view.php?id=57160)
 
 
-## Lec 04-2 - Tue 9/29: k-Nearest Neighbors
+## Lec 04-2 - Tue 9/29: Transformations, scaling & pipelines
 
 ### Admin
 
