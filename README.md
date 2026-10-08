@@ -13,7 +13,8 @@
 - Photo of essay discussion points added to `lec05-1-essay_discussion/` folder
 - HW1 feedback published in [`HW_feedback.md`](HW_feedback.md)
 - The following will be posted shortly after lecture
-    - Solutions to `lab04-2` on transformations, scaling, pipelines - `lab05-2` on kNN
+    - Solutions to `lab04-2` on transformations, scaling, pipelines 
+    - `lab05-2` on kNN
     - Link to accept HW5
 
 ### Class
