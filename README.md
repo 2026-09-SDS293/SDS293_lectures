@@ -12,17 +12,17 @@
 
 - Photo of essay discussion points added to `lec05-1-essay_discussion/` folder
 - HW1 feedback published in [`HW_feedback.md`](HW_feedback.md)
-- The following will be posted shortly after lecture
-    - Solutions to `lab04-2` on transformations, scaling, pipelines 
-    - `lab05-2` on kNN
-    - Link to accept HW5
+- Solutions to `lab04-2` on transformations, scaling, pipelines posted
+
 
 ### Class
 
 - Lecture: k-Nearest Neighbors (knn)
-- Work on PS1 in groups
+- Work on PS1 in groups.
   - What is a [Minimum Viable Product](images/MVP.png)
-
+- `HW5` on kNN assigned. **Only Question 1 due on 10/15, Question 2 will be due on 10/22**
+  - Accept `HW5` [here](https://classroom50.org/2026-09-SDS293/2026-09-sds293-modeling-for-machine-lear/assignments/hw5/accept). Look at the instructions for cloning `HW2` to ensure you don't clone the `HW5` repo inside another repo.
+  - You will be submitting your completed versions of `lab05-2` kNN 
 
 ## Lec 05-1 - Tue 10/6: Collaborating in Git & PS1
 
