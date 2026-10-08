@@ -6,6 +6,22 @@
 - [Moodle](https://moodle.smith.edu/course/view.php?id=57160)
 
 
+## Lec 05-2 - Thu 10/8: k-Nearest Neighbors
+
+### Admin
+
+- Photo of essay discussion points added to `lec05-1-essay_discussion/` folder
+- HW1 feedback published in [`HW_feedback.md`](HW_feedback.md)
+- The following will be posted shortly after lecture
+    - Solutions to `lab04-2` on transformations, scaling, pipelines - `lab05-2` on kNN
+    - Link to accept HW5
+
+### Class
+
+- Lecture: k-Nearest Neighbors (knn)
+- Work on PS1 in groups
+  - What is a [Minimum Viable Product](images/MVP.png)
+
 
 ## Lec 05-1 - Tue 10/6: Collaborating in Git & PS1
 
