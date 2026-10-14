@@ -6,6 +6,17 @@
 - [Moodle](https://moodle.smith.edu/course/view.php?id=57160)
 
 
+
+## Lec 06-2 - Thu 10/15: Cross validation
+
+### Admin
+
+### Class
+
+
+
+
+
 ## Lec 05-2 - Thu 10/8: k-Nearest Neighbors
 
 ### Admin
