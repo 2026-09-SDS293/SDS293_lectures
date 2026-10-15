@@ -2,21 +2,40 @@
 
 
 
+## HW4: Transformations, scaling, pipelines
+
+The median completion time was 2 hours (range 1–5). Student reflections and (anonymized) grader feedback [here](https://docs.google.com/spreadsheets/d/e/2PACX-1vSqP8n3SVX4nqgHFFRZ-Esp7jLZrEnU_cEzYV-yJbTyfzQPVMWioL2sxeFmvLe9Le-OWEd04Tx6Q3TA/pubhtml?gid=1423349144&single=true). What students struggled with:
+
+| Topic | Students | What they struggled with |
+|---|---|---|
+| Pipeline; `.fit()` vs `.transform()` vs `.fit_transform()` | 6 | Understanding what each step learns and applies; most resolved it |
+| Q3A/B: picking the predictor columns (`ID`, `Label`, `select_dtypes`) | 4 | Order of `select_dtypes()` and `.drop()`; forgetting to drop `ID` |
+| Copy-and-adapt errors (`train` vs `train_wbc`, `ic` vs `wbc`) | 3 | Renaming most, but not all, variables from the example |
+| Box-Cox needs strictly positive values | 3 | Hit a `ValueError` or worked around the zeros |
+| Q3D: converting the pipeline output back to a DataFrame | 2 | Supplying the column names |
+| Deciding what to transform or rescale, and judging success | 2 | Which variables need what; "was it successful?" |
+
+
+
 ## HW3: DBSCAN and PCA
 
-- Solutions posted in `lec03-1/` and `lec03-2`; be sure to save your own copy and rename it
-- Student [reflections](); see summary below
+The median completion time was 5 hours (range 2-10). Student reflections and (anonymized) grader feedback [here](https://docs.google.com/spreadsheets/d/e/2PACX-1vSqP8n3SVX4nqgHFFRZ-Esp7jLZrEnU_cEzYV-yJbTyfzQPVMWioL2sxeFmvLe9Le-OWEd04Tx6Q3TA/pubhtml?gid=1505023770&single=true). What students struggled with:
 
-### Summary of student reflections
+| Lab and question | Students | What they struggled with |
+|---|---|---|
+| 03-1 Q2 (open-ended clustering of `majors`) | 7 | Getting the data into shape, deciding how much is enough, interpreting the clusters |
+| 03-1 Q1 (eps search) and demo code | 2 | Missing the starter grid; `[:,0]` indexing |
+| 03-2 Q1 (scree and cumulative plots) | 3 | Building the plot from scratch |
+| 03-2 Q2 (PC scatter colored by `engnat`) | 3 | Coloring points by group; indexing PCs |
+| 03-2 Q3 (loadings) | 4 | What a loading means; sign vs size |
+| 03-2 Q4 (dark triad) | 2 | Plots |
 
-
-***
 
 
 ## HW2: Hierarchical clustering
 
 - Solutions posted in `lec02-1/`; be sure to save your own copy and rename it
-- Student [reflections](https://docs.google.com/spreadsheets/d/e/2PACX-1vSqP8n3SVX4nqgHFFRZ-Esp7jLZrEnU_cEzYV-yJbTyfzQPVMWioL2sxeFmvLe9Le-OWEd04Tx6Q3TA/pubhtml?gid=2007430057&single=true); see summary below
+- Student [reflections](https://docs.google.com/spreadsheets/d/e/2PACX-1vSqP8n3SVX4nqgHFFRZ-Esp7jLZrEnU_cEzYV-yJbTyfzQPVMWioL2sxeFmvLe9Le-OWEd04Tx6Q3TA/pubhtml?gid=2007430057&single=true)
 
 
 ### Summary of student reflections
@@ -60,13 +79,9 @@ relative to what the lab demanded.
 
 
 
-
-***
-
-
 ## HW1: k-Means Clustering
 
 - Solutions posted in `lec01-2/`; be sure to save your own copy and rename it
-- Student [reflections](https://docs.google.com/spreadsheets/d/e/2PACX-1vSqP8n3SVX4nqgHFFRZ-Esp7jLZrEnU_cEzYV-yJbTyfzQPVMWioL2sxeFmvLe9Le-OWEd04Tx6Q3TA/pubhtml?gid=1767179853&single=true); see summary below
+- Student [reflections](https://docs.google.com/spreadsheets/d/e/2PACX-1vSqP8n3SVX4nqgHFFRZ-Esp7jLZrEnU_cEzYV-yJbTyfzQPVMWioL2sxeFmvLe9Le-OWEd04Tx6Q3TA/pubhtml?gid=1767179853&single=true)
 
 

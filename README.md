@@ -7,12 +7,22 @@
 
 
 
-## Lec 06-2 - Thu 10/15: Cross validation
+## Lec 06-2 - Thu 10/15: k-Nearest Neighbors
 
 ### Admin
 
+- Solutions to `HW5` -> `lab05-2` k-nearest neighbors -> Q1 posted
+- Due next Thu 10/22
+    - `HW5` -> `lab05-2` k-nearest neighbors -> Q2. Submit in same repo.
+    - (Group) Problem Set 1
+- Oral exam discussion on Tuesday
+
+
 ### Class
 
+- Go over Quizzes 3 and 4
+- Lecture: Cross-validation
+- Quiz at 11:55am. Always check both sides of page for questions.
 
 
 
