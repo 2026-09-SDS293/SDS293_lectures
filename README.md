@@ -7,7 +7,14 @@
 
 
 
-## Lec 06-2 - Thu 10/15: k-Nearest Neighbors
+## Lec 07-1 - Tue 10/20: Cross-validation Continued
+
+
+
+
+
+
+## Lec 06-2 - Thu 10/15: Cross-validation
 
 ### Admin
 
