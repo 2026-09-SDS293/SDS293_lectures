@@ -88,11 +88,11 @@ Grade distribution in Fall 2025 (18 students):
 
 ### Class
 
+- Quiz at beginning of lecture. Always check both sides of page for questions.
 - Lec07-1: Cross-validation Continued
     - Slides 1-16 are identical to previous Lec06-2 slides
     - Slides 17 onwards are new
 - Start `lab07-1` (time allowing)
-- Quiz at 11:55am. Always check both sides of page for questions.
 
 
 
