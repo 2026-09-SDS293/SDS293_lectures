@@ -2,9 +2,17 @@
 
 
 
+## HW5: k-Nearest Neighbors
+
+Coming on Thu 10/22
+
+
 ## HW4: Transformations, scaling, pipelines
 
-The median completion time was 2 hours (range 1–5). Student reflections and (anonymized) grader feedback [here](https://docs.google.com/spreadsheets/d/e/2PACX-1vSqP8n3SVX4nqgHFFRZ-Esp7jLZrEnU_cEzYV-yJbTyfzQPVMWioL2sxeFmvLe9Le-OWEd04Tx6Q3TA/pubhtml?gid=1423349144&single=true). What students struggled with:
+- The median completion time was 2 hours (range 1–5)
+- Student reflections and (anonymized) grader feedback [here](https://docs.google.com/spreadsheets/d/e/2PACX-1vSqP8n3SVX4nqgHFFRZ-Esp7jLZrEnU_cEzYV-yJbTyfzQPVMWioL2sxeFmvLe9Le-OWEd04Tx6Q3TA/pubhtml?gid=1423349144&single=true). 
+
+What students struggled with:
 
 | Topic | Students | What they struggled with |
 |---|---|---|
@@ -19,7 +27,10 @@ The median completion time was 2 hours (range 1–5). Student reflections and (a
 
 ## HW3: DBSCAN and PCA
 
-The median completion time was 5 hours (range 2-10). Student reflections and (anonymized) grader feedback [here](https://docs.google.com/spreadsheets/d/e/2PACX-1vSqP8n3SVX4nqgHFFRZ-Esp7jLZrEnU_cEzYV-yJbTyfzQPVMWioL2sxeFmvLe9Le-OWEd04Tx6Q3TA/pubhtml?gid=1505023770&single=true). What students struggled with:
+- The median completion time was 5 hours (range 2-10)
+- Student reflections and (anonymized) grader feedback [here](https://docs.google.com/spreadsheets/d/e/2PACX-1vSqP8n3SVX4nqgHFFRZ-Esp7jLZrEnU_cEzYV-yJbTyfzQPVMWioL2sxeFmvLe9Le-OWEd04Tx6Q3TA/pubhtml?gid=1505023770&single=true). 
+
+What students struggled with:
 
 | Lab and question | Students | What they struggled with |
 |---|---|---|

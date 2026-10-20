@@ -9,6 +9,91 @@
 
 ## Lec 07-1 - Tue 10/20: Cross-validation Continued
 
+### Admin
+
+- Tue 11/17 class: President & CEO of Western Mass Economic Development Council Aaron Vega will be coming to visit our class to have a discussion on data centers. **Attendance is mandatory**
+    - Bio links:
+        - [Wikipedia](https://en.wikipedia.org/wiki/Aaron_Vega)
+        - [LinkedIn](https://www.linkedin.com/in/aaronmvega/)
+        - [Massachusetts House of Representatives](https://malegislature.gov/Legislators/Profile/A_V1/190/Biography) (served 2013-2020)
+- Thank you to newly hired Lecturer of Public Discourse and Journalism [Dusty Christensen](https://www.smith.edu/people/dusty-christensen) for the connection!
+    
+
+### Oral Exam
+
+#### a) General info
+
+- Admin
+    - Sign-up link [here](https://calendar.google.com/calendar/u/0/appointments/schedules/AcZssZ2Ts_7ADyzr7MNV6F-7GqEokVQJ6N8penj07ZDnKj3aGS29pnUhSFDqV1ncR7R1GXHgpFUc9Rqx)
+    - Time slots are 20min, but exam is 15min. Please arrive outside my office 5min early.
+    - Smith [Academic Integrity Statement](https://www.smith.edu/your-campus/offices-services/office-student-affairs/student-handbook/academic-honor-code-0) applies: Do not discuss your exam with anyone until all exams are completed.
+-  What is purpose of these orals? To verify that:
+    - You haven't over-relied on AI
+    - You aren't doing labs blindly i.e. can you explain both **what** code is doing, but also **why** we are doing it
+    - You understand the main ML functions and what their inputs/outputs are
+- What is the format?
+    - Unlike a written quiz or exam, this will be interactive and dialogue based. For example, even if you don't get an answer correct right away, there is room for dialogue and guidance.
+    - Nerves are normal. We'll start with warm-questions.
+    - You'll be presented with either your code or the solutions on my laptop and
+        - Asked to interpret code
+        - Debug a simple error message
+        - Sketch out an approach to a problem
+
+#### b) What should I study?
+
+- Study the solutions, then go over your submissions (including your reflections)
+- Advanced data wrangling questions will not be asked or guidance will be given
+- See both class-level feedback and individual feedback from grader in [`HW_feedback.md`](HW_feedback.md)
+- Specific labs:
+    - `lab01-1` Introduction to Python:
+      - skip entirely
+    - `lab01-2` $k$-means Clustering:
+      - study, but skip:
+        - Silhouette scores since we didn't cover these in class
+        - Part 2 on Application of k-means on images
+    - `lab02-1` Hierarchical Clustering:
+      - study
+    - `lab03-1` DBSCAN Clustering:
+      - study
+      - Note Q2 is data wrangling intensive and open ended, so don't worry about interpreting the clusters
+    - `lab03-2` Principal Component Analysis:
+      - study
+      - This includes loadings despite us not having spent time in class on them. Ex: "what do the sign and size of a loading mean?"
+    - `lab04-2` Transformations, Scaling, and Pipelines:
+      - study
+    - `lab05-2` $k$-nearest neighbors:
+      - study (solutions to Q2 will be posted on Thursday after class)
+    - `lab07-1` Cross-validation and Hyperparameter tuning:
+      - skip
+    - `PS1`:
+      - skip
+
+#### c) How will grading work?
+
+Recall from [Syllabus](https://docs.google.com/document/d/1lK7GGtBCa7a2vtsxQLncKqUdS1siXBVi27ruP0pS3SA/edit?tab=t.0#heading=h.u5i5e332fy53):
+
+| Check score | Meaning | Grade on Moodle | Grade |
+|---|---|---|---|
+| ✔️+ | Convincingly displayed mastery of the "what" and "why" of the topics covered in course | 2 | A |
+| ✔️ | Displayed reasonable mastery, but with a lot of instructor guidance and a few errors. | 1 | B+ |
+| ✔️- | Did not display mastery | 0 | C+ |
+
+
+Grade distribution in Fall 2025 (18 students):
+
+- ✔️+ = A: 12 had no problems.
+- ✔️ = B+: 5 had partial understanding. They could somewhat explain **what** the code was doing but struggled to explain **why**, as if doing labs blindly. They did not seem over-reliant on AI.
+- ✔️- = C+: 1 not only doesn’t understand the material, but their responses were inconsistent with those of someone who is actually doing the labs.
+
+
+### Class
+
+- Lec07-1: Cross-validation Continued
+    - Slides 1-16 are identical to previous Lec06-2 slides
+    - Slides 17 onwards are new
+- Start `lab07-1` (time allowing)
+- Quiz at 11:55am. Always check both sides of page for questions.
+
 
 
 
@@ -28,7 +113,7 @@
 ### Class
 
 - Go over Quizzes 3 and 4
-- Lecture: Cross-validation
+- Lecture: Cross-validation (up to and include slide 16)
 - Quiz at 11:55am. Always check both sides of page for questions.
 
 
