@@ -7,6 +7,36 @@
 
 
 
+## Lec 07-2 - Thu 10/22: Classifier Performance
+
+### Admin
+
+- By popular request PS1 due time has been extended to 3:30pm, which is after my in-person office hours today in McConnell 214
+- Office hours next week (Google Calendar above has been updated):
+    - Mon 11/26 on Zoom ~~3pm-4:30pm~~ 5:15pm-6:15pm (new time)
+    - Wed 11/28 on Zoom 3pm-4pm (added this week) 
+    - ~~Thu 11/29 in-person 1:30pm-3pm~~ (cancelled for oral exams)
+- HW5 Part 2 -> `lab05-2` on kNN -> Q2
+    - Solutions posted in `lab05-2` folder
+    - Feedback and reflections posted at [`HW_feedback.md`](HW_feedback.md)
+- All HW and PS: Please don't skip reflections, I do read them as they really help me know how to calibrate the course
+
+### Class
+
+- Go over Quiz 5
+- Confusion from lec07-1 Cross-validation continued
+  - Handout on CV. Image files saved in [`lec07-1-cross_validation_continued/cv_handout/cv_handout.pdf`](lec07-1-cross_validation_continued/cv_handout/cv_handout.pdf)
+  - "Why doesn't the blue curve match the black curve?" in [Lec 07-1 slides](lec07-1-cross_validation_continued/lec07-1-cross_validation_continued.pdf#page=19) Slide 19? Standby
+- Shiny App of performance metric/score for $y$ = binary categorical variable: Receiver Operating Characteristic (ROC) Curves and Area under the Curve (AUC) 
+  - In **RStudio** open [`lec07-2-classfier_performance/ROC_curves/ROC_curves.Rmd`](lec07-2-classfier_performance/ROC_curves/ROC_curves.Rmd)
+  - Click "Run Document"
+  - You may need to install `shiny` package
+- `HW6` on cross-validation assigned. 
+  - Accept `HW6` [here](https://classroom50.org/2026-09-SDS293/2026-09-sds293-modeling-for-machine-lear/assignments/hw6/accept). Look at the instructions for cloning `HW2` to ensure you don't clone the `HW6` repo inside another repo.
+  - You will be submitting your completed versions of `lab07-1` on cross-validation
+
+
+
 ## Lec 07-1 - Tue 10/20: Cross-validation Continued
 
 ### Admin

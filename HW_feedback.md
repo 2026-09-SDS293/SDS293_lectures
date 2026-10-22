@@ -1,10 +1,23 @@
 # Feedback and Discussion on Various HW
 
 
+## HW5 Part 2: k-Nearest Neighbors Q2
 
-## HW5: k-Nearest Neighbors
 
-Coming on Thu 10/22
+
+## HW5 Part 1: k-Nearest Neighbors Q1
+
+- The median completion time was 1.61 hours for 9/17 respondants (range 1-2) 
+- Student reflections and (anonymized) grader feedback [here](https://docs.google.com/spreadsheets/d/e/2PACX-1vSqP8n3SVX4nqgHFFRZ-Esp7jLZrEnU_cEzYV-yJbTyfzQPVMWioL2sxeFmvLe9Le-OWEd04Tx6Q3TA/pubhtml?gid=1386306763&single=true). 
+
+What students struggled with:
+
+| Topic | Students | What they struggled with |
+|---|---|---|
+| Part b.1–b.2: choosing a model when overfitting and test error disagree | 3 | k = 1 overfits, yet has the lowest test RMSE; is that a tradeoff? |
+| Part b.3: what could improve the analysis | 2 | Couldn't think of anything specific; one went to Claude to find "the answer" |
+| Order of sklearn steps on training vs test data | 1 | Set up, fit, predict, RMSE: why the test version looks different |
+| Looking up an unfamiliar NumPy function (`np.repeat`) | 1 | Understanding the mean model's code |
 
 
 ## HW4: Transformations, scaling, pipelines
