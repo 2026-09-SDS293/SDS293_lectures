@@ -7,7 +7,7 @@
 
 
 
-## Lec 07-2 - Thu 10/22: Classifier Performance
+## Lec 07-2 - Thu 10/22: Cross-validation Handout
 
 ### Admin
 
@@ -27,10 +27,6 @@
 - Confusion from lec07-1 Cross-validation continued
   - Handout on CV. Image files saved in [`lec07-1-cross_validation_continued/cv_handout/cv_handout.pdf`](lec07-1-cross_validation_continued/cv_handout/cv_handout.pdf)
   - "Why doesn't the blue curve match the black curve?" in [Lec 07-1 slides](lec07-1-cross_validation_continued/lec07-1-cross_validation_continued.pdf#page=19) Slide 19? Standby
-- Shiny App of performance metric/score for $y$ = binary categorical variable: Receiver Operating Characteristic (ROC) Curves and Area under the Curve (AUC) 
-  - In **RStudio** open [`lec07-2-classfier_performance/ROC_curves/ROC_curves.Rmd`](lec07-2-classfier_performance/ROC_curves/ROC_curves.Rmd)
-  - Click "Run Document"
-  - You may need to install `shiny` package
 - `HW6` on cross-validation assigned. 
   - Accept `HW6` [here](https://classroom50.org/2026-09-SDS293/2026-09-sds293-modeling-for-machine-lear/assignments/hw6/accept). Look at the instructions for cloning `HW2` to ensure you don't clone the `HW6` repo inside another repo.
   - You will be submitting your completed versions of `lab07-1` on cross-validation
