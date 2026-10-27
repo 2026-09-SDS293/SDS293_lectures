@@ -6,6 +6,28 @@
 - [Moodle](https://moodle.smith.edu/course/view.php?id=57160)
 
 
+## Lec 08-1 - Tue 10/27: Classifier Performance
+
+### Admin
+
+- Go over course schedule
+- Confusion from lec07-1 Cross-validation continued
+  - "Why doesn't the blue curve match the black curve?" in [Lec 07-1 slides](lec07-1-cross_validation_continued/lec07-1-cross_validation_continued.pdf#page=19) Slide 19. Punted to lecture on Bias-Variance Trade-off
+- Before class on Thu 10/29 install [Positron](https://positron.posit.co/)
+
+
+### Class
+
+- Shiny App of performance metric/score for $y$ = binary categorical variable: Receiver Operating Characteristic (ROC) Curves and Area under the Curve (AUC) 
+  - In **RStudio** open [`lec07-2-classfier_performance/ROC_curves/ROC_curves.Rmd`](lec07-2-classfier_performance/ROC_curves/ROC_curves.Rmd)
+  - Click "Run Document"
+  - You may need to install `shiny` package
+- Lecture: Measures/metrics of classifier performance
+- Lab: `lab08-1`
+- Quiz at 11:55am. Always check both sides of page for questions.
+
+
+
 
 ## Lec 07-2 - Thu 10/22: Cross-validation Handout
 
