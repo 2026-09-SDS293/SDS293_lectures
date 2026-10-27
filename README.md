@@ -19,7 +19,7 @@
 ### Class
 
 - Shiny App of performance metric/score for $y$ = binary categorical variable: Receiver Operating Characteristic (ROC) Curves and Area under the Curve (AUC) 
-  - In **RStudio** open [`lec07-2-classfier_performance/ROC_curves/ROC_curves.Rmd`](lec07-2-classfier_performance/ROC_curves/ROC_curves.Rmd)
+  - In **RStudio** open [`lec08-1-classfier_performance/ROC_curves/ROC_curves.Rmd`](lec08-1-classfier_performance/ROC_curves/ROC_curves.Rmd)
   - Click "Run Document"
   - You may need to install `shiny` package
 - Lecture: Measures/metrics of classifier performance
