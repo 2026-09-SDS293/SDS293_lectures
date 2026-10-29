@@ -6,6 +6,29 @@
 - [Moodle](https://moodle.smith.edu/course/view.php?id=57160)
 
 
+
+## Lec 08-2 - Thu 10/29: Classifier Performance
+
+### Admin
+
+- Quiz 06 handed back:
+    - Written midterm: Quizzes are the closest thing to a practice exam we've seen so far
+    - Just because you got ✔️+ doesn't mean you got everything right; study what you got wrong as well
+- Oral exams:
+    - Smith [Academic Integrity Statement](https://www.smith.edu/your-campus/offices-services/office-student-affairs/student-handbook/academic-honor-code-0) applies: Do not discuss your exam with anyone until all exams are completed.
+    - Note about Round 2 
+
+
+### Class
+
+- Lecture: Decision trees
+- `lab08-2` on decision trees
+- `HW8` assigned (note `HW7` label is skipped to stay consistent with week number):
+  - Accept `HW8` [here](https://classroom50.org/2026-09-SDS293/2026-09-sds293-modeling-for-machine-lear/assignments/hw8/accept). Look at the instructions for cloning `HW2` to ensure you don't clone the this repo inside another repo.
+  - You will be submitting your completed versions of `lab08-1` on classifier performance & `lab08-2` on decision trees
+
+
+
 ## Lec 08-1 - Tue 10/27: Classifier Performance
 
 ### Admin
