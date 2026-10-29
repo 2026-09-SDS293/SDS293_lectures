@@ -11,12 +11,14 @@
 
 ### Admin
 
+- Try opening `SDS293_lectures` repo in Positron and try it out for today.
+- Why I ask you to write reflections: [metacognition](https://tll.mit.edu/teaching-resources/how-people-learn/metacognition/)
 - Quiz 06 handed back:
-    - Written midterm: Quizzes are the closest thing to a practice exam we've seen so far
-    - Just because you got ✔️+ doesn't mean you got everything right; study what you got wrong as well
+  - Written midterm: Quizzes are the closest thing to a practice exam we've seen so far
+  - Just because you got ✔️+ doesn't mean you got everything right; study what you got wrong as well
 - Oral exams:
-    - Smith [Academic Integrity Statement](https://www.smith.edu/your-campus/offices-services/office-student-affairs/student-handbook/academic-honor-code-0) applies: Do not discuss your exam with anyone until all exams are completed.
-    - Note about Round 2 
+  - Smith [Academic Integrity Statement](https://www.smith.edu/your-campus/offices-services/office-student-affairs/student-handbook/academic-honor-code-0) applies: Do not discuss your exam with anyone until all exams are completed.
+  - Note about Round 2 
 
 
 ### Class
