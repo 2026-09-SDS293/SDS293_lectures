@@ -7,7 +7,7 @@
 
 
 
-## Lec 08-2 - Thu 10/29: Classifier Performance
+## Lec 08-2 - Thu 10/29: Decision Trees
 
 ### Admin
 
