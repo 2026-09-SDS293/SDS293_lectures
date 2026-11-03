@@ -7,6 +7,26 @@
 
 
 
+## Lec 09-1 - Tue 11/3: Ensembles and Random Forests
+
+### Admin
+
+- Aaron Vega talk moved to Tue 12/1
+- Oral Exam:
+    - Grades posted on Moodle, distribution: 12 x ✔️+, 5 x ✔️
+    - For more specific feedback please come to office hours
+    - Next oral exam will be similar in format and feel
+    - Updated [syllabus](https://docs.google.com/document/d/1lK7GGtBCa7a2vtsxQLncKqUdS1siXBVi27ruP0pS3SA/edit?tab=t.0#heading=h.u5i5e332fy53)
+
+
+### Class
+
+- Lecture: Ensemble methods and Random Forests
+- Lab: `lab09-1`
+- Quiz at 11:55am. Always check both sides of page for questions.
+
+
+
 ## Lec 08-2 - Thu 10/29: Decision Trees
 
 ### Admin
