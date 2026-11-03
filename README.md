@@ -22,7 +22,7 @@
 ### Class
 
 - Lecture: Ensemble methods and Random Forests
-- Lab: `lab09-1`
+- Lab: `lab09-1` ~~to be posted after lunch~~ posted
 - Quiz at 11:55am. Always check both sides of page for questions.
 
 
