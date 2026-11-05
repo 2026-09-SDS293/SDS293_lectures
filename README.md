@@ -7,6 +7,25 @@
 
 
 
+## Lec 09-2 - Thu 11/5: Boosting
+
+### Admin
+
+- Office hours changes due to advising week; office hours Google Calendar above has been updated. If this is a problem for you, please Slack DM to arrange another time.
+    - Today Thu 11/5 in-person ~~1:30pm-3:00pm~~ 2:30pm-4:00pm
+    - Monday 11/9 on Zoom: Canceled
+- Reproducibility of HW labs
+
+### Class
+
+- Lecture: Boosting
+- Lab: `lab09-2` to be posted after lunch
+- `HW9` assigned
+  - Accept `HW9` [here](https://classroom50.org/2026-09-SDS293/2026-09-sds293-modeling-for-machine-lear/assignments/hw9/accept). Look at the instructions for cloning `HW2` to ensure you don't clone the this repo inside another repo.
+  - You will be submitting your completed versions of `lab09-1` on ensemble methods & random forests & `lab09-2` on boosting
+
+
+
 ## Lec 09-1 - Tue 11/3: Ensembles and Random Forests
 
 ### Admin
