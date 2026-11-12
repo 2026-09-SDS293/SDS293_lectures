@@ -7,6 +7,78 @@
 
 
 
+
+
+## Lec 10-2 - Thu 11/12: Midterm + Problem Set 2
+
+### Admin
+
+- As soon as you get to class:
+    - Please sit next to your [PS2 group partner](https://docs.google.com/spreadsheets/d/e/2PACX-1vSqP8n3SVX4nqgHFFRZ-Esp7jLZrEnU_cEzYV-yJbTyfzQPVMWioL2sxeFmvLe9Le-OWEd04Tx6Q3TA/pubhtml?gid=518669777&single=true)
+    - Create an account on [kaggle](https://www.kaggle.com/)
+    - Open [House Prices - Advanced Regression Techniques](https://www.kaggle.com/competitions/house-prices-advanced-regression-techniques) competition
+    - Accept `PS2` [here](https://classroom50.org/2026-09-SDS293/2026-09-sds293-modeling-for-machine-lear/assignments/ps2/accept). Look at the instructions for cloning `HW2` to ensure you don't clone the `PS1` repo inside another repo.
+- No HW10 on `lab09-2-boosting.ipynb` due next Thu 11/19
+    - Focus on completing PS2 `q1_preprocessing.ipynb` ASAP, then start studying for midterm
+    - Solutions are posted in `lec09-2-boosting` folder. Read over this, you will need it for PS2 `q5_gradient_boosting.ipynb`
+- Elaona talk
+- I still owe you feedback for PS1
+
+
+### Written Midterm Exam
+
+#### a) General info
+
+- Graded out of 100%
+- Self-scheduled exam Fri 11/20 to Sun 11/22
+    - Click here for more [info](https://www.science.smith.edu/self-scheduled-exams/#students) about self-scheduled exams
+    - You have 6 hours to complete. This follows [universal design principles](https://universaldesign.ie/about-universal-design): no one should require full time.
+    - **Don't forget to timestamp exam twice: once at pickup, once at drop-off**
+- Cheat sheet
+    - One 8.5in x 11in, single sided, handwritten cheatsheet with your name on it
+    - No magnifying glasses allowed
+    - Submit with your midterm, it will be returned
+- After Friday 3pm for fairness I won’t answer any questions about midterm
+
+
+#### b) What should I study?
+
+- Topics: Everything up to and including Gradient Boosting
+- Materials to study
+    - Slides + corresponding written notes + handouts
+    - Quizzes: Fairly representative of the types of questions that can be asked
+    - Materials distributed on Slack #general on Thu 11/12
+        - Example past midterm: Use this to get a feel for types of questions that might be on it, not necessarily for content. This was a midterm from before I overhauled this course
+        - Machine Learning Flashcards: They don’t cover everything we’ve learned, but they all relate to something we’ve learned. At author Chris Albon’s request, please don’t share. Normally you need to pay for these. 
+- Labs and Problem Sets
+  - No writing code directly, rather algorithmic pseudocode
+  - You may have to interpret given code
+
+
+
+### Class
+
+- Problem Set 2
+    - Note special due date: Tue 11/24 7pm (right before Thanksgiving)
+    - Office hours right before:
+      - Mon 11/23 1:30pm-4:00pm in my office
+      - Tue 11/24 5:30pm-6:30pm on zoom (on demand)
+    - Ice breaker (based on idea of trees vs random forests): When you have a hard decision, do you ask one trusted person (a single deep tree) or poll many friends (several shallow trees)? Which has worked out better for you, and why?
+    - Establish partnership dynamics:
+        - (No shame in this game) Do you tend to start early, or leave things last minute?
+        - What's your preferred method for being held accountable? Slack, text, in-person talks etc?
+        - Will you be leaving campus for Thanksgiving? If so, when?
+        - How can we work around midterm?
+        - Is there anything else going on in your life right now that might affect your ability to contribute? For sensitive matters, no need to go into explicit details
+- Go over PS2 structure
+- Quiz 9 at 11:55am. Always check both sides of page for questions
+
+
+
+
+
+
+
 ## Lec 09-2 - Thu 11/5: Boosting
 
 ### Admin
