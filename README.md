@@ -71,7 +71,7 @@
         - How can we work around midterm?
         - Is there anything else going on in your life right now that might affect your ability to contribute? For sensitive matters, no need to go into explicit details
 - Go over PS2 structure
-- Quiz 9 at 11:55am. Always check both sides of page for questions
+- Quiz at 11:55am. Always check both sides of page for questions
 
 
 
