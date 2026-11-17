@@ -9,6 +9,23 @@
 
 
 
+## Lec 11-1 - Tue 11/17: Feature Engineering
+
+### Admin
+
+- 
+
+### Class
+
+- Go over Quiz 8
+- `lab11-1` solutions (not to be submitted): Make a copy, as we'll go over in class
+- Work on PS1
+- Quiz at 11:55am. Always check both sides of page for questions.
+
+
+
+
+
 ## Lec 10-2 - Thu 11/12: Midterm + Problem Set 2
 
 ### Admin
