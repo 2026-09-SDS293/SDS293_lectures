@@ -20,7 +20,7 @@
 - Go over Quiz 8
 - `lab11-1` solutions (not to be submitted): Make a copy, as we'll go over in class
 - Work on PS1
-- Quiz at 11:55am. Always check both sides of page for questions.
+- Quiz ~~at 11:55am. Always check both sides of page for questions~~ due in class on Thu 11/19
 
 
 
