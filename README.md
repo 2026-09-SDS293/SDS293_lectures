@@ -60,7 +60,7 @@
 
 #### b) What should I study?
 
-- Topics: Everything up to and including Gradient Boosting
+- Topics: Everything up to and including (Gradient) Boosting
 - Materials to study
     - Slides + corresponding written notes + handouts
     - Quizzes: Fairly representative of the types of questions that can be asked
