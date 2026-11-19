@@ -1,7 +1,58 @@
 # Feedback and Discussion on Various HW
 
 
+## HW9: Ensemble Methods & Random Forests
+
+- The median completion time was 2 hours for 11 respondents who reported hours (range 1.5–4; one more wrote about 4 hours in their reflection)
+- Student reflections and (anonymized) grader feedback [here](https://docs.google.com/spreadsheets/d/e/2PACX-1vSqP8n3SVX4nqgHFFRZ-Esp7jLZrEnU_cEzYV-yJbTyfzQPVMWioL2sxeFmvLe9Le-OWEd04Tx6Q3TA/pubhtml?gid=393224322&single=true)
+
+Summary table of where students struggled to be posted on Fri 11/20
+
+
+
+
+## HW8: Classifier Performance + Decision Trees
+
+- The median completion time was 4 hours for 14 respondents who reported hours (range 1.2–7; one more wrote about 9 hours in their reflection)
+- Student reflections and (anonymized) grader feedback [here](https://docs.google.com/spreadsheets/u/1/d/e/2PACX-1vSqP8n3SVX4nqgHFFRZ-Esp7jLZrEnU_cEzYV-yJbTyfzQPVMWioL2sxeFmvLe9Le-OWEd04Tx6Q3TA/pubhtml?gid=1748562274&single=true)
+
+Summary table of where students struggled to be posted on Fri 11/20
+
+
+
+
+
+
+## HW6: Cross-validation
+
+- The median completion time was 2 hours for 14 respondents who reported hours (range 1–5)
+- Student reflections and (anonymized) grader feedback [here](https://docs.google.com/spreadsheets/d/e/2PACX-1vSqP8n3SVX4nqgHFFRZ-Esp7jLZrEnU_cEzYV-yJbTyfzQPVMWioL2sxeFmvLe9Le-OWEd04Tx6Q3TA/pubhtml?gid=2004145852&single=true)
+
+
+| Topic | Students | What they struggled with |
+|---|---|---|
+| Negative scores: why `neg_root_mean_squared_error`, flipping the sign | 7 | Why sklearn reports a negative RMSE (it maximizes the score); whether "best" still means smallest RMSE; forgetting `-` when building the RMSE column from `mean_test_score`. Most worked it out |
+| Finding the right `scoring` string and where it goes | 4 | Reading the docs to find `scoring = ...`; getting RMSE instead of $R^2$ or accuracy. One wrote `neg_mean_squared_error`, which is MSE, not RMSE |
+| How `GridSearchCV` works | 3 | What `param_grid`, `cv = 5`, and the averaging of fold scores do; what `best_estimator_`, `best_score_` and `cv_results_` return. The two who explained it in their own words did so well |
+
+
+
 ## HW5 Part 2: k-Nearest Neighbors Q2
+
+- The median completion time was 2 hours (range 1.5–5)
+- Student reflections and (anonymized) grader feedback [here](https://docs.google.com/spreadsheets/d/e/2PACX-1vSqP8n3SVX4nqgHFFRZ-Esp7jLZrEnU_cEzYV-yJbTyfzQPVMWioL2sxeFmvLe9Le-OWEd04Tx6Q3TA/pubhtml?gid=394842597&single=true)
+
+What students struggled with:
+
+| Topic | Students | What they struggled with |
+|---|---|---|
+| Q1 interpretation: k = 1 vs k = 10, the RMSE ratio, overfitting vs lowest test RMSE | 7 | Why k = 1 has a tiny training RMSE yet is "best" on test data; what the ratio means; reading the table |
+| Order of sklearn steps (`fit`, `predict`, RMSE; train vs test) | 3 | Which object is fit on what, and what `.predict()` produces (`y_hat`) |
+| Looping over k = 1 to 30 | 3 | Remembering the loop structure; an off-by-one between `x` and `y` for the plot |
+| Q1 Part b.3, improving the analysis | 2 | Couldn't think of what to change; one found it by changing the test split |
+| Pipeline and function details | 3 | Wrong import location for `StandardScaler`; `np.repeat`; `set_params(model_fit__n_neighbors = ...)`; how Yeo-Johnson interacts with the weights option |
+| Data leakage (fitting on test data) | 1 | Found and corrected after submission |
+| No difficulty | 2 | "Straight forward"; "I just referenced the lectures and bits from previous homeworks" |
 
 
 

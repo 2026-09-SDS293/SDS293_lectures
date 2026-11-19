@@ -6,6 +6,27 @@
 - [Moodle](https://moodle.smith.edu/course/view.php?id=57160)
 
 
+## Lec 11-2 - Thu 11/19: Linear Regression
+
+### Admin
+
+- Sit with PS2 partner
+- Final project will be in groups of 2-3. If you have groupmate preferences, let me know [here](https://docs.google.com/forms/d/e/1FAIpQLSebCOL-8ryp1k7ctVXd2nBGZsrqGiL701RhpEp44BcuUNARgA/viewform?usp=publish-editor)
+- Solutions posted for:
+    - `lab07-1` cross-validation
+    - `lab08-1` classifier performance
+    - `lab08-2` decision trees
+    - `lab09-1` ensemble methods & random forests
+- Feedback and reflections for HW6, HW8, and HW9 posted at [`HW_feedback.md`](HW_feedback.md). Summary of common areas of struggle for HW8 and HW9 to be posted on Friday after I've read all your reflections.
+
+### Class
+
+- Lecture: Linear regression
+- `lab11-2` not to be submitted
+
+
+
+
 
 
 
