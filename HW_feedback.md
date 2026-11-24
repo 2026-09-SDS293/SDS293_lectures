@@ -16,8 +16,13 @@ Summary table of where students struggled to be posted on Fri 11/20
 - The median completion time was 4 hours for 14 respondents who reported hours (range 1.2–7; one more wrote about 9 hours in their reflection)
 - Student reflections and (anonymized) grader feedback [here](https://docs.google.com/spreadsheets/u/1/d/e/2PACX-1vSqP8n3SVX4nqgHFFRZ-Esp7jLZrEnU_cEzYV-yJbTyfzQPVMWioL2sxeFmvLe9Le-OWEd04Tx6Q3TA/pubhtml?gid=1748562274&single=true)
 
-Summary table of where students struggled to be posted on Fri 11/20
-
+| Topic | Students | What they struggled with |
+|---|---|---|
+| Q2: `GridSearchCV` with a `Pipeline` | 3 | Parameter names need the step prefix (`model__min_impurity_decrease`); what `best_estimator_` is; how the "which model" step can itself be tuned |
+| Q2: choosing a range for `min_impurity_decrease` | 3 | Large values give a single-node "tree"; no sense of what range is reasonable; one used `np.logspace` after asking AI |
+| Q1: computing Gini and weighted impurity by hand | 3 | No formula on the slides; reading the printed trees (they look different from the slides) and whether to use the `gini` value on the node |
+| ROC curves and AUC | 2 | Why one model has many thresholds; `predict_proba` and `[:,1]`; one hit a rendering error because the code uses `y_pred` where `y_score` is needed |
+| Q2.e: test-set predictions and accuracy | 2 | Mixing up fitting on train with predicting on test |
 
 
 

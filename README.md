@@ -6,6 +6,53 @@
 - [Moodle](https://moodle.smith.edu/course/view.php?id=57160)
 
 
+## Lec 12-1 - Tue 11/24: Logistic Regression
+
+### Admin
+
+- Next week:
+    - Tuesday:
+        - Aaron Vega visits
+        - No Quiz 12 this week
+    - Oral exams Wednesday through Friday (see below)
+    - Thursday:
+        - Final project distributed, groups assigned
+        - Midterms handed back at the earliest today
+
+### Oral Exam Round 2
+
+Same format as last time
+
+#### a) General info
+
+- Admin
+    - Sign-up link [here](https://calendar.google.com/calendar/u/0/appointments/schedules/AcZssZ2Ts_7ADyzr7MNV6F-7GqEokVQJ6N8penj07ZDnKj3aGS29pnUhSFDqV1ncR7R1GXHgpFUc9Rqx)
+    - Smith [Academic Integrity Statement](https://www.smith.edu/your-campus/offices-services/office-student-affairs/student-handbook/academic-honor-code-0) applies: Do not discuss your exam with anyone until all exams are completed.
+
+### b) What should I study?
+
+- Study the solutions, then go over your submissions (including your reflections)
+- Advanced data wrangling questions will not be asked or guidance will be given
+- See both class-level feedback and individual feedback from grader in [`HW_feedback.md`](HW_feedback.md)
+- Specific labs:
+    - All labs from Oral Exam Round 1: Skip
+    - `lab07-1` Cross-validation and Hyperparameter tuning (in `lec06-2/`): Study
+    - `lab08-1` Classifier performance: Study
+    - `lab08-2` Decision trees: Study
+    - `lab09-1` Ensembles and Random Forests: Study
+    - `lab09-2` Boosting: Study
+    - `lab11-1` Feature engineering: Skip 
+    - `lab11-2` Linear regression: Study
+    - `PS2`: Skip
+
+
+### Class
+
+- 
+- Quiz at 11:55am. Always check both sides of page for questions
+
+
+
 ## Lec 11-2 - Thu 11/19: Linear Regression
 
 ### Admin
