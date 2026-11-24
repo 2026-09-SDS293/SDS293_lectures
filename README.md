@@ -18,6 +18,7 @@
     - Thursday:
         - Final project distributed, groups assigned
         - Midterms handed back at the earliest today
+        - HW12 on logistic regression due
 
 ### Oral Exam Round 2
 
@@ -48,8 +49,12 @@ Same format as last time
 
 ### Class
 
-- 
+- Lecture: Logistic Regression
+- `HW12` assigned
+  - Accept `HW12` [here](https://classroom50.org/2026-09-SDS293/2026-09-sds293-modeling-for-machine-lear/assignments/hw12/accept). Look at the instructions for cloning `HW2` to ensure you don't clone the this repo inside another repo.
 - Quiz at 11:55am. Always check both sides of page for questions
+
+
 
 
 
